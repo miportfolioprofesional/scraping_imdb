@@ -1,38 +1,45 @@
 # 🎬 IMDB Top 250 Movies Web Scraper 🕷️
 
-## 📝 Descripción
-Este proyecto es un web scraper automatizado diseñado para extraer información sobre las 250 mejores películas según IMDB. Utiliza técnicas avanzadas de web scraping para recopilar datos como títulos, años de lanzamiento, duración y valoraciones, proporcionando una solución eficiente para el análisis de datos cinematográficos.
+## 📝 Description
 
-## ✨ Características
-- 🤖 Extracción automatizada de datos de la página Top 250 de IMDB.
-- 🌐 Manejo de elementos dinámicos de la página web.
-- 🧠 Clasificación inteligente de metadatos (año, duración, valoración).
-- 📊 Generación de un archivo Excel con datos estructurados y limpios.
+This project is an automated web scraper designed to extract information about the top 250 movies according to IMDB. It uses advanced web scraping techniques to collect data such as titles, release years, runtime, and ratings, providing an efficient solution for analyzing movie data.
 
-## 🛠️ Tecnologías Utilizadas
+## ✨ Features
+
+- 🤖 Automated data extraction from IMDB's Top 250 page.
+- 🌐 Handling of dynamic web page elements.
+- 🧠 Intelligent classification of metadata (year, runtime, rating).
+- 📊 Generation of an Excel file with structured and clean data.
+
+## 🛠️ Technologies Used
+
 - 🐍 Python
-- 🌐 Selenium con undetected_chromedriver
-- 🐼 Pandas para manipulación de datos
-- 🔍 Expresiones regulares para procesamiento de texto
+- 🌐 Selenium with undetected_chromedriver
+- 🐼 Pandas for data manipulation
+- 🔍 Regular expressions for text processing
 
-## 🚀 Funcionamiento
-1. **🔧 Inicialización del WebDriver**: Configura un navegador Chrome no detectable para evitar bloqueos.
-2. **📚 Extracción de Títulos**: Navega a la página de IMDB y extrae los títulos de las películas.
-3. **🕵️ Recopilación de Metadatos**: Realiza una segunda pasada para extraer información adicional (año, duración, valoración).
-4. **🧮 Procesamiento de Datos**: Clasifica y estructura la información extraída.
-5. **🔗 Fusión de Datos**: Combina los títulos con sus respectivos metadatos.
-6. **💾 Exportación**: Genera un archivo Excel con toda la información recopilada y procesada.
+## 🚀 How It Works
 
-## 💡 Beneficios
-- **⏱️ Automatización**: Reduce significativamente el tiempo necesario para recopilar datos manualmente.
-- **🎯 Precisión**: Minimiza errores humanos en la recopilación de datos.
-- **🔄 Actualización**: Facilita la obtención de datos actualizados regularmente.
-- **📈 Análisis**: Proporciona una base de datos estructurada lista para análisis posteriores.
+1. **🔧 WebDriver Initialization**: Sets up an undetectable Chrome browser to avoid blocks.
+2. **📚 Title Extraction**: Navigates to the IMDB page and extracts movie titles.
+3. **🕵️ Metadata Collection**: Makes a second pass to gather additional information (year, duration, rating).
+4. **🧮 Data Processing**: Sorts and structures the extracted information.
+5. **🔗 Data Merging**: Combines titles with their respective metadata.
+6. **💾 Export**: Generates an Excel file with all the collected and processed information.
 
-## 🔧 Uso
-1. Asegúrate de tener todas las dependencias instaladas.
-2. Ejecuta el script principal.
-3. El script navegará automáticamente por IMDB, extraerá los datos y generará un archivo Excel llamado 'df_merged.xlsx'.
+## 💡 Benefits
 
-## ⚠️ Nota
-Este proyecto está diseñado con fines educativos y de demostración. Asegúrate de cumplir con los términos de servicio de IMDB y las leyes de propiedad intelectual al utilizar este scraper.
+- **⏱️ Automation**: Significantly reduces the time needed to collect data manually.
+- **🎯 Accuracy**: Minimizes human errors in data collection.
+- **🔄 Updating**: Makes it easier to obtain updated data regularly.
+- **📈 Analysis**: Provides a structured database ready for further analysis.
+  
+## 🔧 Usage
+
+1. Make sure you have all the dependencies installed.
+2. Run the main script.
+3. The script will automatically browse IMDB, extract the data, and generate an Excel file called 'df_merged.xlsx'.
+
+## ⚠️ Note
+
+This project is designed for educational and demonstration purposes. Make sure to comply with IMDB's terms of service and intellectual property laws when using this scraper.
